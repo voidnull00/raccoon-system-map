@@ -10,9 +10,9 @@ This is a controlled visibility layer, not a portfolio.
 
 ### Repo Operating Kit (GROS)
 
-A surface-level map of systems I build and maintain.
-Defines a two-loop model: slow architecture planning, fast gated execution.
-Used across all projects below as the shared development discipline.
+An operating model distilled from repeated development friction across real repositories.
+Defines a two-loop structure: slow architecture planning, fast gated execution.
+Applied across all projects below as the shared development discipline.
 
 ![GROS system diagram](screenshots/gros-diagram.png)
 
@@ -31,7 +31,8 @@ rst init       — initialize config for a target repo
 rst doctor     — diagnose toolkit setup
 ```
 
-Stack: Python 3.10+, pytest · v0.7.0 · 13 test modules · 3 repo profiles (generic, Python, Laravel)
+Stack: Python 3.10+, pytest · v0.7.0 · 14 test modules
+Profiles: generic, Python, Laravel
 
 ---
 
@@ -66,7 +67,7 @@ The frontend is a projection layer — it displays signals from the backend, not
 
 Mechanics: producers, upgrades, extraction, hub progression, deterministic offline catch-up.
 
-Stack: Laravel 12, MySQL, Docker · 45+ feature gates shipped · 38+ tests
+Stack: Laravel 12, MySQL, Docker · Gate B45 shipped · 37 test files
 
 ---
 
