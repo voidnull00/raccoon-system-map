@@ -78,6 +78,15 @@ but are not surfaced here.
 
 ---
 
+## Ideas
+
+Concepts, patterns, and mental models that inform the work above.
+Not specifications — just named thinking.
+
+→ [ideas/](ideas/)
+
+---
+
 ## What this repo is not
 
 This is not a portfolio, a code mirror, or a recruiting artifact.
