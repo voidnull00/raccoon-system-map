@@ -94,3 +94,13 @@ Source code, internal architecture, protocols, and implementation details
 live in private repositories.
 
 What's here is the shape of the work, not its substance.
+
+---
+
+## Support (optional)
+
+GitHub Sponsors is available for the work represented here.
+
+No obligations, no deliverables, and no expectations on either side.
+
+→ [github.com/sponsors/voidnull00](https://github.com/sponsors/voidnull00)
