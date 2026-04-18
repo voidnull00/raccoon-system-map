@@ -1,4 +1,4 @@
-# 🧠 THINKING LAYER — Q&A Interface Pattern
+# THINKING LAYER — Q&A Interface Pattern
 
 ## 0. What this is
 

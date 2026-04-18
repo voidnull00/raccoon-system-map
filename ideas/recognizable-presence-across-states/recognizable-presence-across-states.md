@@ -124,17 +124,11 @@ who_has_more_relevant_context → leads
 other → validates / challenges
 ```
 
-### Current Phase
+Examples:
 
-- Human gathers context
-- Human defines intent
-- AI supports reasoning
-
-### Emerging Phase
-
-- AI detects patterns across accumulated context
-- AI proposes direction
-- Human validates alignment with reality
+- Human leads when gathering context, defining intent, or validating alignment with reality
+- AI leads when detecting patterns across accumulated context or proposing direction
+- Both validate — authority follows relevant context, not fixed roles
 
 ---
 
