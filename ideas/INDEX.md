@@ -28,7 +28,39 @@ They are intentionally:
 
 ## Core Set
 
-### 1. Rangespeaking
+### 1. Raw Signal
+
+→ [raw_signal/raw_signal.md](raw_signal/raw_signal.md)
+
+Represents unfiltered input before interpretation or alignment.
+
+> “What is present before meaning is applied?”
+
+Used for:
+
+- separating observation from interpretation
+- reducing premature judgment
+- preserving signal fidelity before processing
+
+---
+
+### 2. Alignment Signal Mapping
+
+→ [alignment_signal_mapping/alignment_signal_mapping.md](alignment_signal_mapping/alignment_signal_mapping.md)
+
+Converts text into a personal resonance map using symbol-based intensity marking.
+
+> “How strongly does this align with me?”
+
+Used for:
+
+- calibrating internal signals against external input
+- filtering noise from resonance
+- revealing identity patterns across varied content
+
+---
+
+### 3. Rangespeaking
 
 → [rangespeaking/rangespeaking.md](rangespeaking/rangespeaking.md)
 
@@ -44,7 +76,7 @@ Used for:
 
 ---
 
-### 2. Latent Constrained Vectors
+### 4. Latent Constrained Vectors
 
 → [latent-constrained-vectors/latent-constrained-vectors.md](latent-constrained-vectors/latent-constrained-vectors.md)
 
@@ -60,7 +92,7 @@ Used for:
 
 ---
 
-### 3. Conditional Attribution
+### 5. Conditional Attribution
 
 → [conditional-attribution/conditional-attribution.md](conditional-attribution/conditional-attribution.md)
 
@@ -76,7 +108,7 @@ Used for:
 
 ---
 
-### 4. Recognizable Presence Across States
+### 6. Recognizable Presence Across States
 
 → [recognizable-presence-across-states/recognizable-presence-across-states.md](recognizable-presence-across-states/recognizable-presence-across-states.md)
 
@@ -112,14 +144,23 @@ Used for:
 
 ## Relationship Between Primitives
 
-These patterns operate on different layers:
+These patterns fall into two groups:
+
+**Sequential pipeline:**
 
 ```txt
-Rangespeaking           → evaluation layer
-Latent Vectors          → activation layer
-Conditional Attribution → communication/meta layer
-Recognizable Presence   → identity/continuity layer
-Thinking Layer          → decision interface layer
+Raw Signal                → input layer
+Alignment Signal Mapping  → signal/calibration layer
+Rangespeaking             → evaluation layer
+Thinking Layer            → decision interface layer
+```
+
+**Cross-cutting primitives:**
+
+```txt
+Latent Constrained Vectors   → scope filter (applies at any stage)
+Conditional Attribution      → communication/meta layer (applies at output)
+Recognizable Presence        → identity/continuity validator (applies during evaluation or output)
 ```
 
 Together, they form a minimal set of:
