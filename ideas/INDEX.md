@@ -158,6 +158,22 @@ Used for:
 
 ---
 
+### IRL → PR
+
+→ [irl-to-pr/irl-to-pr.md](irl-to-pr/irl-to-pr.md)
+
+A pipeline that compresses a lived observation into a merged repo change.
+
+> "What is the smallest PR that carries this idea forward?"
+
+Used for:
+
+- turning friction into a repo change
+- promoting a latent idea into the system
+- keeping IRL input from leaking directly into commits
+
+---
+
 ## Relationship Between Primitives
 
 These patterns fall into two groups:
