@@ -34,7 +34,7 @@ They are intentionally:
 
 Represents unfiltered input before interpretation or alignment.
 
-> “What is present before meaning is applied?”
+> "What is present before meaning is applied?"
 
 Used for:
 
@@ -44,13 +44,29 @@ Used for:
 
 ---
 
-### 2. Alignment Signal Mapping
+### 2. BeepBoop Principle
+
+→ [beepboop-principle/beepboop-principle.md](beepboop-principle/beepboop-principle.md)
+
+A micro feedback primitive where observed signals trigger minimal adjustments in a tight loop.
+
+> "What small response does this signal call for?"
+
+Used for:
+
+- fast local adaptation
+- low-friction iteration
+- responding to live system feedback
+
+---
+
+### 3. Alignment Signal Mapping
 
 → [alignment_signal_mapping/alignment_signal_mapping.md](alignment_signal_mapping/alignment_signal_mapping.md)
 
 Converts text into a personal resonance map using symbol-based intensity marking.
 
-> “How strongly does this align with me?”
+> "How strongly does this align with me?"
 
 Used for:
 
@@ -60,13 +76,13 @@ Used for:
 
 ---
 
-### 3. Rangespeaking
+### 4. Rangespeaking
 
 → [rangespeaking/rangespeaking.md](rangespeaking/rangespeaking.md)
 
 Evaluates decisions on a spectrum instead of binary outcomes.
 
-> “Where does this sit on a range?”
+> "Where does this sit on a range?"
 
 Used for:
 
@@ -76,13 +92,13 @@ Used for:
 
 ---
 
-### 4. Latent Constrained Vectors
+### 5. Latent Constrained Vectors
 
 → [latent-constrained-vectors/latent-constrained-vectors.md](latent-constrained-vectors/latent-constrained-vectors.md)
 
 Stores ideas as inactive directions with activation conditions.
 
-> “This exists, but only becomes relevant if X is true”
+> "This exists, but only becomes relevant if X is true"
 
 Used for:
 
@@ -92,13 +108,13 @@ Used for:
 
 ---
 
-### 5. Conditional Attribution
+### 6. Conditional Attribution
 
 → [conditional-attribution/conditional-attribution.md](conditional-attribution/conditional-attribution.md)
 
 Applies attribution only when it adds clarity or reduces risk.
 
-> “Does attribution improve understanding here?”
+> "Does attribution improve understanding here?"
 
 Used for:
 
@@ -108,7 +124,7 @@ Used for:
 
 ---
 
-### 6. Recognizable Presence Across States
+### 7. Recognizable Presence Across States
 
 → [recognizable-presence-across-states/recognizable-presence-across-states.md](recognizable-presence-across-states/recognizable-presence-across-states.md)
 
@@ -128,7 +144,7 @@ Used for:
 
 ### Thinking Layer — Q&A Interface Pattern
 
-→ [observability_thinking_layer/THINKING_LAYER\_\_Q&A_Interface_Pattern.md](observability_thinking_layer/THINKING_LAYER__Q&A_Interface_Pattern.md)
+→ [observability_thinking_layer/THINKING_LAYER__Q&A_Interface_Pattern.md](observability_thinking_layer/THINKING_LAYER__Q&A_Interface_Pattern.md)
 
 Wraps raw Q&A in structured context to produce decision-ready output.
 
