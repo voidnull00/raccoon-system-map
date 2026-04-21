@@ -304,6 +304,7 @@ BeepBoop is not:
 - lack of structure
 
 It is:
+
 > small-scope adaptation driven by observed signal
 
 ---

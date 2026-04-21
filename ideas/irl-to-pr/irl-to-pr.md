@@ -100,7 +100,7 @@ activation condition — not advance to PR.
 
 ### Rangespeaking
 
-Used at integration to decide *how much* of the abstraction lands in this PR.
+Used at integration to decide _how much_ of the abstraction lands in this PR.
 Not binary ship / don't-ship.
 
 ---
@@ -149,5 +149,7 @@ Result: stalled ideas, no merged artifact.
 
 A pipeline that compresses lived input into a merged artifact
 without losing signal or overshooting scope.
+
+---
 
 🦝
