@@ -144,7 +144,7 @@ Used for:
 
 ### Thinking Layer — Q&A Interface Pattern
 
-→ [observability_thinking_layer/THINKING_LAYER__Q&A_Interface_Pattern.md](observability_thinking_layer/THINKING_LAYER__Q&A_Interface_Pattern.md)
+→ [observability_thinking_layer/THINKING_LAYER\_\_Q&A_Interface_Pattern.md](observability_thinking_layer/THINKING_LAYER__Q&A_Interface_Pattern.md)
 
 Wraps raw Q&A in structured context to produce decision-ready output.
 
@@ -171,6 +171,24 @@ Used for:
 - turning friction into a repo change
 - promoting a latent idea into the system
 - keeping IRL input from leaking directly into commits
+
+---
+
+## Decision Primitives
+
+### 8. Orientation Is a Model, Not Truth
+
+→ [observability_thinking_layer/ORIENTATION_IS_A_MODEL_NOT_TRUTH.md](observability_thinking_layer/ORIENTATION_IS_A_MODEL_NOT_TRUTH.md)
+
+Distinguishes orientation from reality. Orientation is a revisable model, not objective truth.
+
+> "What am I treating as fact that is only a working model?"
+
+Used for:
+
+- diagnosing stuck feedback loops
+- separating signal from narrative
+- auditing decisions made under false certainty
 
 ---
 
