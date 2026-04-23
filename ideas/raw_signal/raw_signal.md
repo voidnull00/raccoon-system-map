@@ -1,5 +1,7 @@
 # Raw Signal
 
+_Worked example: see `chatgpt.com_session.txt` — a real session where concrete observations ("afmetingen passen niet", "QR scans instantly") drove every adjustment._
+
 ## Core Idea
 
 Before alignment, evaluation, or interpretation:
