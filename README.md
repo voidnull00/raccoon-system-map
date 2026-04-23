@@ -22,6 +22,13 @@ Stack: Markdown, Mermaid diagrams, Git discipline
 
 A Python CLI that gives any Git repository a standard observability layer.
 
+Turns repo-context prep for LLM use from a manual 5–10 minute workflow into a repeatable one-command step.
+
+Packages repo state so an LLM can reason about a repository without direct repo access.
+Extends the same model to multi-repo visibility via a single workspace scan.
+
+Not a linter, CI layer, or auto-fixer — an observability/context bridge between local repos and LLM workflows.
+
 ```
 rst snapshot   — capture repo state (human-readable, JSON, compact)
 rst health     — evaluate repo health signals + LOC analysis
