@@ -29,16 +29,20 @@ Extends the same model to multi-repo visibility via a single workspace scan.
 
 Not a linter, CI layer, or auto-fixer — an observability/context bridge between local repos and LLM workflows.
 
+`rst full` is the single operator entry surface that runs all core commands and writes a combined `report.txt`; `rst workspace scan` extends observability across every repo in the workspace; pack artifacts (`SESSION_MANIFEST`, `SNAPSHOT`, `HEALTH`) are the concrete handoff format between local state and LLM sessions.
+
 ```
-rst snapshot   — capture repo state (human-readable, JSON, compact)
-rst health     — evaluate repo health signals + LOC analysis
-rst pack       — bundle context for AI-assisted collaboration
-rst diff       — summarize recent changes
-rst init       — initialize config for a target repo
-rst doctor     — diagnose toolkit setup
+rst snapshot       — capture repo state (human-readable, JSON, compact)
+rst health         — evaluate repo health signals + LOC analysis
+rst pack           — bundle context for AI-assisted collaboration
+rst diff           — summarize recent changes
+rst init           — initialize config for a target repo
+rst doctor         — diagnose toolkit setup
+rst workspace scan — scan all repos in workspace; write multi-repo snapshot
+rst full           — composite operator entry; orchestrates core commands, writes report.txt
 ```
 
-Stack: Python 3.10+, pytest · v0.7.0 · 14 test modules
+Stack: Python 3.10+, pytest · v0.9.0
 Profiles: generic, Python, Laravel
 
 ---
