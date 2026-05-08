@@ -55,6 +55,13 @@ A personal dashboard for capturing and tracking workplace friction —
 blockers, energy drains, unclear tasks, missing permissions.
 Turns vague work problems into structured, trackable issues.
 
+Two surfaces: a local operator workflow built on Laravel + MySQL + Docker, and a
+public browser-local version that requires no account and holds no server-side
+storage of friction data. JSON Save/Load is the portable data boundary; exported
+friction data can be used as external reflection context, including with AI.
+
+→ [friction-dashboard.pages.dev/build/resources/public](https://friction-dashboard.pages.dev/build/resources/public)
+
 ![Friction Dashboard](screenshots/friction-dashboard.png)
 
 Stack: Laravel 12, MySQL, Docker · v0.7.1 · 58 tests, 172 assertions
