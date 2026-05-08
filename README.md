@@ -42,7 +42,7 @@ rst workspace scan — scan all repos in workspace; write multi-repo snapshot
 rst full           — composite operator entry; orchestrates core commands, writes report.txt
 ```
 
-Stack: Python 3.10+, pytest · v0.9.0
+Stack: Python 3.10+, pytest · v0.10.0
 Profiles: generic, Python, Laravel
 
 ---
@@ -64,7 +64,7 @@ friction data can be used as external reflection context, including with AI.
 
 ![Friction Dashboard](screenshots/friction-dashboard.png)
 
-Stack: Laravel 12, MySQL, Docker · v0.7.1 · 58 tests, 172 assertions
+Stack: Laravel 12, MySQL, Docker · v0.10.0
 
 ### Signal Board
 
