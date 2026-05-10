@@ -98,10 +98,7 @@ but are not surfaced here.
 
 ## Ideas
 
-Concepts, patterns, and mental models that inform the work above.
-Not specifications — just named thinking.
-
-→ [ideas/](ideas/)
+Thinking primitives have moved to a private archive.
 
 ---
 
